@@ -717,7 +717,6 @@
 				98FB7E7217AD75D3000262F2 /* Supporting Files */,
 				9873946017C400D30067FED5 /* Images.xcassets */,
 			);
-			name = Revolved;
 			path = Revolved;
 			sourceTree = "<group>";
 		};
@@ -892,6 +891,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 98FB7E5F17AD75D3000262F2;
@@ -1138,7 +1138,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Revolved/Revolved-Prefix.pch";
 				INFOPLIST_FILE = "Revolved/Revolved-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = Revolved;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -1159,7 +1159,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Revolved/Revolved-Prefix.pch";
 				INFOPLIST_FILE = "Revolved/Revolved-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = Revolved;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -1207,7 +1207,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Revolved/Revolved-Prefix.pch";
 				INFOPLIST_FILE = "Revolved/Revolved-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = Revolved;
 				PROVISIONING_PROFILE = "BFF902A3-388D-46AC-909A-1DF3A908F17E";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -1255,7 +1255,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Revolved/Revolved-Prefix.pch";
 				INFOPLIST_FILE = "Revolved/Revolved-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_NAME = Revolved;
 				PROVISIONING_PROFILE = "AEBFC96F-58A6-40E3-A075-6D947DCF0841";
 				TARGETED_DEVICE_FAMILY = 2;
