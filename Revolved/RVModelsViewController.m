@@ -82,14 +82,15 @@ static const float ZOffsetPassive = -0.5;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = nil;
+    self.view.backgroundColor = [UIColor clearColor];
     self.modelToModelSpriteMap = [NSMapTable strongToStrongObjectsMapTable];
     
     self.editButton.exclusiveTouch = YES;
     
     [self.progressView.plus addTarget:self action:@selector(addButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
     
-    self.tableView.backgroundColor = nil;
+    self.tableView.backgroundColor = [UIColor clearColor];
+    self.tableView.showsVerticalScrollIndicator = NO;
     self.tableView.clipsToBounds = NO;
     self.tableView.rowHeight = CellSize.width;
     [self.tableView registerClass:[RVModelCell class] forCellReuseIdentifier:CellIdentifier];
@@ -815,7 +816,7 @@ static const float ZOffsetPassive = -0.5;
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    cell.backgroundColor = nil;
+    cell.backgroundColor = [UIColor clearColor];
     self.needsRetesellation = YES;
 }
 
